@@ -82,15 +82,17 @@ smart_assistant_pro/
 
 
 
-5. Professional GitHub repository structure
+# **5. Professional GitHub repository structure**
+
 Your GitHub repository will be your programming laboratory and portfolio.
 
-python-45-days
+**python-45-days**
 
 Public portfolio
 
 Recommended folder architecture
 
+```
 
 python-45-days/
 │
@@ -171,9 +173,13 @@ python-45-days/
 ├── README.md
 └── LICENSE
   
-What every daily folder must contain
-For example, day01_variables/:
+```
 
+### **What every daily folder must contain**
+
+For example, `day01_variables/`:
+
+```
 day01_variables/
 │
 ├── main.py
@@ -181,12 +187,15 @@ day01_variables/
 ├── notes.md
 ├── test_main.py
 └── README.md
-main.py: Main day's assignment.
-exercises.py: Independent exercises.
-notes.md: Concepts and learning.
-test_main.py: Tests when applicable.
-README.md: What the program does and how to run it.
-You don't need a separate test file for every trivial exercise on Day 1, but testing should become a regular habit as your programs grow.
+```
+
+- `main.py`: Main day's assignment.
+- `exercises.py`: Independent exercises.
+- `notes.md`: Concepts and learning.
+- `test_main.py`: Tests when applicable.
+- `README.md`: What the program does and how to run it.
+
+Don't need a separate test file for every trivial exercise on Day 1, but testing should become a regular habit as your programs grow.
 
 Root README template
 
